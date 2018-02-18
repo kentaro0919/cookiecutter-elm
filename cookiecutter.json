@@ -1,3 +1,8 @@
 {
-	"app_name": "simpleapp"
+	"app_name": "simpleapp",
+	"description": "Semple Elm app with webpack",
+	"your_name": "Your Name",
+	"your_website": "yourname.github.io",
+	"email": "you@example.com",
+	"github_username": "username"
 }
