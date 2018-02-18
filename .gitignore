@@ -1,0 +1,14 @@
+{{cookiecutter.app_name}}/node_modules
+/test/js
+/test/browsertest/js
+/test/fixtures/temp-cache-fixture
+/benchmark/js
+/benchmark/fixtures
+/examples/**/dist
+/coverage
+.DS_Store
+*.log
+.idea
+.vscode
+/*/*/elm-stuff
+{{cookiecutter.app_name}}/elm-stuff
