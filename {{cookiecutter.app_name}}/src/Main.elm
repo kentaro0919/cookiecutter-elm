@@ -10,7 +10,7 @@ import Subscriptions exposing (subscriptions)
 
 init : ( Model, Cmd Msg )
 init =
-    ( "Hello", Cmd.none )
+    ( "Greetings.", Cmd.none )
 
 
 
