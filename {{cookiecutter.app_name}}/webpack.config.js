@@ -14,7 +14,17 @@ module.exports = {
         rules: [
             {
                 test: /\.(css|scss)$/,
-                use: ["style-loader", "css-loader"]
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: [{
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1
+                        }
+                    },
+                    'postcss-loader'
+                        　]
+                })
             }, {
                 test: /\.html$/,
                 exclude: /node_modules/,
