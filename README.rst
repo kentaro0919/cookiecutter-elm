@@ -17,9 +17,11 @@ Requires
 Use cookiecutter-elm
 --------------------
 
-```sh
+```
+
 $ cookiecutter https://github.com/m-x-k/cookiecutter-elm*
 
 $ cd {your app name}
 $ yarn install
+
 ```
