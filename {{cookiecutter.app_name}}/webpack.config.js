@@ -12,20 +12,13 @@ module.exports = {
 
     module: {
         rules: [
-            {
-                test: /\.(css|scss)$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    use: [{
-                        loader: 'css-loader',
-                        options: {
-                            importLoaders: 1
-                        }
-                    },
-                    'postcss-loader'
-                         ]
-                })
-            }, {
+                  {
+        test: /\.(css|scss)$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ]
+      }, {
                 test: /\.html$/,
                 exclude: /node_modules/,
                 loader: "file-loader?name=[name].[ext]"
