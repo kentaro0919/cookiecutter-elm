@@ -17,5 +17,9 @@ Requires
 Use cookiecutter-elm
 --------------------
 
-*cookiecutter https://github.com/m-x-k/cookiecutter-elm*
+```sh
+$ cookiecutter https://github.com/m-x-k/cookiecutter-elm*
 
+$ cd {your app name}
+$ yarn install
+```
