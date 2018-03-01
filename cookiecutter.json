@@ -5,7 +5,5 @@
 	"your_website": "yourname.github.io",
 	"email": "you@example.com",
 	"github_username": "username",
-	{
-    "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"]
-}
+        "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"]
 }
