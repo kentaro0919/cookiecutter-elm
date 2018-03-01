@@ -15,7 +15,7 @@
 
 
 ```bash
-$ cookiecutter https://github.com/m-x-k/cookiecutter-elm*  
+$ cookiecutter https://github.com/kentaro0919/cookiecutter-elm.git
 $ cd {your app name}  
 $ yarn install  
 $ elm-package install
